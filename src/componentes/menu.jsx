@@ -1,6 +1,6 @@
 import s from './menu.module.css'
 
-export const menu = () => {
+export const Menu = () => {
     return(
         
             <nav className={s.menu}>
