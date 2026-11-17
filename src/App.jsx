@@ -6,11 +6,13 @@ function App() {
 
 
   return (
-    <div className={s.wrapHome}>
+    <>
       <Menu />
+    <div className={s.wrapHome}>
        
       
     </div>
+    </>
   )
 }
 
