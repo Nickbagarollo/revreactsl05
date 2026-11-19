@@ -2,6 +2,8 @@ import { useState } from 'react'
 import s from './Charts.module.css'
 import { Menu } from './componentes/menu'
 import { BarChart2 } from './componentes/barChart'
+import { GPie } from './componentes/pieChart'
+import { GLine } from './componentes/lineChart'
 
 
 
@@ -19,8 +21,8 @@ function Charts(){
                 <button className={s.btnChart} onClick={() => (setShow("linha"))}>Gráfico Linha</button>
             </div>
             {show === "barra" && <BarChart2/>}
-            {show === "pizza" && <h1>pizza</h1> }
-            {show === "linha" && <h1>linha</h1> }
+            {show === "pizza" && <GPie/> }
+            {show === "linha" && <GLine/> }
 
 
 

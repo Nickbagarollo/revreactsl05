@@ -1,16 +1,10 @@
 
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import barDados from'../mock/barDados.json'
 
 export const BarChart2 = () => {
 
-  const data = [
-    { label: "Janeiro", meta: 120, atingido: 80 },
-    { label: "Fevereiro", meta: 120, atingido: 80 },
-    { label: "Março", meta: 120, atingido: 80 },
-    { label: "Abril", meta: 120, atingido: 80 },
-    { label: "Maio", meta: 120, atingido: 80 },
-    { Label: "Janeiro", meta: 120, atingido: 80 },
-  ];
+
 
   return (
 
@@ -22,7 +16,7 @@ export const BarChart2 = () => {
         aspectRatio: 1.618,
       }}
       responsive
-      data={data}
+      data={barDados}
       margin={{
         top: 5,
         right: 0,

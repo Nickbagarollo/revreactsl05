@@ -1,0 +1,32 @@
+[
+    {
+        "label": "Janeiro",
+        "meta": 120,
+        "atingido": 80
+    },
+    {
+        "label": "Fevereiro",
+        "meta": 120,
+        "atingido": 80
+    },
+    {
+        "label": "Março",
+        "meta": 120,
+        "atingido": 80
+    },
+    {
+        "label": "Abril",
+        "meta": 120,
+        "atingido": 80
+    },
+    {
+        "label": "Maio",
+        "meta": 120,
+        "atingido": 80
+    },
+    {
+        "label": "Janeiro",
+        "meta": 120,
+        "atingido": 80
+    }
+]
