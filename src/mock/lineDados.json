@@ -1,0 +1,28 @@
+[
+{
+        "label": "Jan",
+        "vendas": 400,
+        "despesas": 40
+    },
+    {
+        "label": "Fev",
+        "vendas": 10,
+        "despesas": 80
+    },
+    {
+        "label": "Mar",
+        "vendas": 220,
+        "despesas": 900
+    },
+    {
+        "label": "Abr",
+        "vendas": 120,
+        "despesas": 70
+    },
+    {
+        "label": "Mai",
+        "vendas": 40,
+        "despesas": 80
+    }
+    
+]
